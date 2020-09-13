@@ -1,0 +1,17 @@
+.sectionTitle {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 34px;
+  font-weight: 700;
+  color: rgb(172, 48, 48);
+}
+
+.appear {
+  transform: translateX(-100%);
+}
+
+.appearActive {
+  transform: translateX(0);
+  transition: all 500ms linear;
+}
